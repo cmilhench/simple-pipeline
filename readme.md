@@ -63,7 +63,7 @@ var badPipe = pipeline()
 Resulting in the following output;
  - Executing step 1 GO
  - Executing step err GO
- - Error: Something whent wrong!
+ - Error: Something went wrong!
  - Complete GO
 
 All of the above use the step functions defined as follows;
@@ -88,7 +88,7 @@ function step3(context, next){
 function stepErr(context, next){
 	console.log('Executing step err %s', context.data);
 	setTimeout(function(){
-		next('Something whent wrong!');
+		next('Something went wrong!');
 	}, 1000);
 }
 ```
