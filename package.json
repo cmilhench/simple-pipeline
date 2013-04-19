@@ -1,0 +1,36 @@
+{
+  "name": "simple-pipeline",
+  "description": "",
+  "version": "0.1.1",
+  "author": {
+    "name": "Colin Milhench",
+    "email": "colin@milhen.ch",
+    "web": "http://milhen.ch",
+    "twitter": "cmilhench"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cmilhench/simple-pipeline.git"
+  },
+  "main": "./index",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "keywords": [
+    "simple",
+    "pipeline",
+    "workflow",
+    "sequence",
+    "pipe",
+    "async",
+    "series",
+    "execution",
+    "tasks"
+  ],
+  "scripts": {
+    "prepublish": "npm prune"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
