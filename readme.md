@@ -12,7 +12,7 @@ Simple-Pipeline is a node module for defining and executing a simple sequential 
 ### A simple workflow
 Running the following from the package directory
 
-    node examples/success
+    $ node examples/success
 
 Executes the following;
 
@@ -41,7 +41,7 @@ Resulting in the following output;
 ### Handling errors
 Running the following from the package directory
 
-    node examples/error
+    $ node examples/error
 
 Executes the following;
 
